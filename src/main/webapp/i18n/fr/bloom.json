@@ -1,0 +1,24 @@
+{
+  "matrixApp": {
+    "bloom": {
+      "home": {
+        "title": "Blooms",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Bloom",
+        "createOrEditLabel": "Créer ou éditer un Bloom",
+        "notFound": "Aucun Bloom trouvé"
+      },
+      "created": "Un nouveau Bloom a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Bloom avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Bloom avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Bloom {{ id }} ?"
+      },
+      "detail": {
+        "title": "Bloom"
+      },
+      "id": "Id",
+      "nivel": "Nivel"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "matrixApp": {
+    "unidade": {
+      "home": {
+        "title": "Unidades",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Unidade",
+        "createOrEditLabel": "Créer ou éditer un Unidade",
+        "notFound": "Aucun Unidade trouvé"
+      },
+      "created": "Un nouveau Unidade a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Unidade avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Unidade avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Unidade {{ id }} ?"
+      },
+      "detail": {
+        "title": "Unidade"
+      },
+      "id": "Id",
+      "codigo": "Codigo"
+    }
+  }
+}

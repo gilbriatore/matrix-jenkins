@@ -1,0 +1,27 @@
+{
+  "applications": ["matrix"],
+  "changelogDate": "20231025234752",
+  "documentation": "@author Geucimar\\n@version 1.0\\n@created 19-out-2023 16:48:38",
+  "entityTableName": "escola",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nome",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Escola",
+  "relationships": [
+    {
+      "otherEntityName": "curso",
+      "otherEntityRelationshipName": "escola",
+      "relationshipName": "curso",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}

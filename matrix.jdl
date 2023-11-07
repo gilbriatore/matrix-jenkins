@@ -1,0 +1,290 @@
+/**
+ * @author Geucimar
+ * @version 1.0
+ * @created 19-out-2023 16:48:38
+ */
+entity Escola {
+    id Integer
+    nome String
+//    List<Curso> cursos;
+}//end Escola
+
+
+/**
+ * @author Geucimar
+ * @version 1.0
+ * @created 19-out-2023 16:48:39
+ */
+entity TipoDeCurso {
+    id Integer
+    nome String
+}//end TipoDeCurso
+
+/**
+ * @author Geucimar
+ * @version 1.0
+ * @created 19-out-2023 16:48:38
+ */
+entity Curso {
+    id Integer
+    nome String
+    cargaHorasMinCurso Integer
+    cargaHorasMinEstagio Integer
+    percMaxEstagioAC Integer
+    percMaxAtividadeDistancia Integer
+//    Escola escola;
+//    List<Matriz> matrizes;
+//    List<Perfil> perfis;
+//    Modalidade modalidade;
+//    TipoDeCurso tipo;
+}//end Curso
+
+relationship OneToMany{
+   Escola to Curso{escola}
+   TipoDeCurso to Curso{tipo}
+}
+
+/**
+ * @author Geucimar
+ * @version 1.0
+ * @created 19-out-2023 16:48:38
+ */
+//entity Atitude {
+//    id Integer
+//    Competencia competencia;
+//    Atividade atividade;
+//}//end Atitude
+
+
+/**
+ * A Atividade.
+ * @author Geucimar
+ * @version 1.0
+ * @created 19-out-2023 16:48:38
+ */
+entity Atividade {
+    id Integer
+    nome String
+//    List<Atitude> atitudes;
+//    List<Competencia> competencias;
+//    Unidade unidade;
+//    Trilha trilha;
+//    Papel papel;
+}//end Atividade
+
+
+/**
+ * @author Geucimar
+ * @version 1.0
+ * @created 19-out-2023 16:48:38
+ */
+entity Bloom {
+    id Integer
+    nivel String
+}//end Bloom
+
+
+/**
+ * @author Geucimar
+ * @version 1.0
+ * @created 19-out-2023 16:48:38
+ */
+//entity Competencia {
+//    id Integer
+//    Perfil perfil;
+//    Papel papel;
+//    List<Habilidade> habilidades;
+//    List<Conhecimento> conhecimentos;
+//    List<Competencia> especificas;
+//    List<Atitude> atitudes;
+//    Atividade atividade;
+//    Diretriz diretriz;
+//    Competencia geral;
+//}//end Competencia
+
+
+/**
+ * @author Geucimar
+ * @version 1.0
+ * @created 19-out-2023 16:48:38
+ */
+//entity Conhecimento {
+//    id Integer
+//    Competencia competencia;
+//    Conteudo conteudo;
+//}//end Conhecimento
+
+
+/**
+ * @author Geucimar
+ * @version 1.0
+ * @created 19-out-2023 16:48:38
+ */
+//entity Conteudo {
+//    id Integer
+//    List<Unidade> unidades;
+//    List<Conhecimento> conhecimentos;
+//    List<Conteudo> especificos;
+//    Conteudo geral;
+//    Trilha trilha;
+//}//end Conteudo
+
+
+
+
+
+/**
+ * @author Geucimar
+ * @version 1.0
+ * @created 19-out-2023 16:48:38
+ */
+//entity DCN {
+//    id Integer
+//    Matriz matriz;
+//    List<Diretriz> diretrizes;
+//}//end DCN
+
+
+/**
+* @author Geucimar
+* @version 1.0
+* @created 19-out-2023 16:48:38
+*/
+//entity Diretriz {
+//    id Integer
+//    List<Competencia> competencias;
+//    DCN dcn;
+//}//end Diretriz
+
+
+/**
+* @author Geucimar
+* @version 1.0
+* @created 19-out-2023 16:48:38
+*/
+//entity Disciplina {
+//    id Integer
+//    Periodo periodo;
+//    List<Unidade> unidades;
+//    Trilha trilha;
+//}//end Disciplina
+
+
+
+/**
+ * @author Geucimar
+ * @version 1.0
+ * @created 19-out-2023 16:48:38
+ */
+//entity Habilidade {
+//    id Integer
+//    Competencia competencia;
+//}//end Habilidade
+
+
+
+/**
+ * @author Geucimar
+ * @version 1.0
+ * @created 19-out-2023 16:48:38
+ */
+entity Matriz {
+    id Integer
+    codigo String
+//    List<Periodo> periodos;
+//    List<Trilha> trilhas;
+//    List<Papel> papeis;
+//    Curso curso;
+//    DCN dcn;
+}//end Matriz
+
+
+/**
+* @author Geucimar
+* @version 1.0
+* @created 19-out-2023 16:48:38
+*/
+entity Modalidade {
+    id Integer
+    nome String
+}//end Modalidade
+
+
+/**
+* @author Geucimar
+* @version 1.0
+* @created 19-out-2023 16:48:38
+*/
+//entity Papel {
+//    id Integer
+//    Perfil perfil;
+//    List<Atividade> atividades;
+//    List<Competencia> competencias;
+//    Matriz matriz;
+//}//end Papel
+
+
+/**
+ * @author Geucimar
+ * @version 1.0
+ * @created 19-out-2023 16:48:38
+ */
+//entity Perfil {
+//    id Integer
+//    Competencia competencias;
+//    List<Papel> papeis;
+//    List<Curso> cursos;
+//}//end Perfil
+
+
+/**
+ * @author Geucimar
+ * @version 1.0
+ * @created 19-out-2023 16:48:38
+ */
+//entity Periodo {
+//    id Integer
+//    List<Trilha> trilhas;
+//    Disciplina disciplina;
+//    Matriz matriz;
+//}//end Periodo
+
+
+/**
+ * @author Geucimar
+ * @version 1.0
+ * @created 19-out-2023 16:48:39
+ */
+//entity Trilha {
+//    id Integer
+//    List<Periodo> periodos;
+//    List<Unidade> unidades;
+//    List<Atividade> atividades;
+//    List<Disciplina> disciplinas;
+//    List<Conteudo> conteudos;
+//    Matriz matriz;
+//}//end Trilha
+
+/**
+* @author Geucimar
+* @version 1.0
+* @created 19-out-2023 16:48:39
+*/
+entity Unidade {
+    id Integer
+    codigo String
+//    Conteudo conteudos;
+//    List<Atividade> atividades;
+//    List<Disciplina> disciplinas;
+//    Trilha trilha;
+}//end Unidade
+
+application {
+
+    config {
+        baseName matrix
+        packageName br.edu.up.matrix
+        applicationType monolith
+    }
+    entities Atividade , Bloom , Curso , Escola , Matriz , Modalidade , TipoDeCurso , Unidade
+}

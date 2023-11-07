@@ -1,0 +1,25 @@
+{
+  "matrixApp": {
+    "escola": {
+      "home": {
+        "title": "Escolas",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Escola",
+        "createOrEditLabel": "Criar ou editar Escola",
+        "notFound": "Nenhum Escola encontrado"
+      },
+      "created": "Um novo Escola foi criado com o identificador {{ param }}",
+      "updated": "Um Escola foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Escola foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Escola {{ id }}?"
+      },
+      "detail": {
+        "title": "Escola"
+      },
+      "id": "Id",
+      "nome": "Nome",
+      "curso": "Curso"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "matrixApp": {
+    "atividade": {
+      "home": {
+        "title": "Atividades",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Atividade",
+        "createOrEditLabel": "Créer ou éditer un Atividade",
+        "notFound": "Aucun Atividade trouvé"
+      },
+      "created": "Un nouveau Atividade a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Atividade avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Atividade avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Atividade {{ id }} ?"
+      },
+      "detail": {
+        "title": "Atividade"
+      },
+      "id": "Id",
+      "nome": "Nome"
+    }
+  }
+}

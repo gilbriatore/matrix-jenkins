@@ -1,0 +1,24 @@
+{
+  "matrixApp": {
+    "matriz": {
+      "home": {
+        "title": "Matrizs",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Matriz",
+        "createOrEditLabel": "Criar ou editar Matriz",
+        "notFound": "Nenhum Matriz encontrado"
+      },
+      "created": "Um novo Matriz foi criado com o identificador {{ param }}",
+      "updated": "Um Matriz foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Matriz foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Matriz {{ id }}?"
+      },
+      "detail": {
+        "title": "Matriz"
+      },
+      "id": "Id",
+      "codigo": "Codigo"
+    }
+  }
+}

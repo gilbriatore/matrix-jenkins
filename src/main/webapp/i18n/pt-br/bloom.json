@@ -1,0 +1,24 @@
+{
+  "matrixApp": {
+    "bloom": {
+      "home": {
+        "title": "Blooms",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Bloom",
+        "createOrEditLabel": "Criar ou editar Bloom",
+        "notFound": "Nenhum Bloom encontrado"
+      },
+      "created": "Um novo Bloom foi criado com o identificador {{ param }}",
+      "updated": "Um Bloom foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Bloom foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Bloom {{ id }}?"
+      },
+      "detail": {
+        "title": "Bloom"
+      },
+      "id": "Id",
+      "nivel": "Nivel"
+    }
+  }
+}

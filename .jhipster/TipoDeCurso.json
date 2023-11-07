@@ -1,0 +1,27 @@
+{
+  "applications": ["matrix"],
+  "changelogDate": "20231025234755",
+  "documentation": "@author Geucimar\\n@version 1.0\\n@created 19-out-2023 16:48:39",
+  "entityTableName": "tipo_de_curso",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nome",
+      "fieldType": "String"
+    }
+  ],
+  "name": "TipoDeCurso",
+  "relationships": [
+    {
+      "otherEntityName": "curso",
+      "otherEntityRelationshipName": "tipo",
+      "relationshipName": "curso",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}

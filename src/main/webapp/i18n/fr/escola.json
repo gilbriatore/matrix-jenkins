@@ -1,0 +1,25 @@
+{
+  "matrixApp": {
+    "escola": {
+      "home": {
+        "title": "Escolas",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Escola",
+        "createOrEditLabel": "Créer ou éditer un Escola",
+        "notFound": "Aucun Escola trouvé"
+      },
+      "created": "Un nouveau Escola a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Escola avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Escola avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Escola {{ id }} ?"
+      },
+      "detail": {
+        "title": "Escola"
+      },
+      "id": "Id",
+      "nome": "Nome",
+      "curso": "Curso"
+    }
+  }
+}

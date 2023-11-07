@@ -1,0 +1,25 @@
+{
+  "matrixApp": {
+    "tipoDeCurso": {
+      "home": {
+        "title": "Tipo De Cursos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Tipo De Curso",
+        "createOrEditLabel": "Create or edit a Tipo De Curso",
+        "notFound": "No Tipo De Cursos found"
+      },
+      "created": "A new Tipo De Curso is created with identifier {{ param }}",
+      "updated": "A Tipo De Curso is updated with identifier {{ param }}",
+      "deleted": "A Tipo De Curso is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tipo De Curso {{ id }}?"
+      },
+      "detail": {
+        "title": "Tipo De Curso"
+      },
+      "id": "Id",
+      "nome": "Nome",
+      "curso": "Curso"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "applications": ["matrix"],
+  "changelogDate": "20231025234749",
+  "documentation": "A Atividade.\\n@author Geucimar\\n@version 1.0\\n@created 19-out-2023 16:48:38",
+  "entityTableName": "atividade",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nome",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Atividade",
+  "relationships": [],
+  "searchEngine": "no"
+}

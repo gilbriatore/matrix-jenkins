@@ -1,0 +1,48 @@
+{
+  "applications": ["matrix"],
+  "changelogDate": "20231025234751",
+  "documentation": "@author Geucimar\\n@version 1.0\\n@created 19-out-2023 16:48:38",
+  "entityTableName": "curso",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cargaHorasMinCurso",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "cargaHorasMinEstagio",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "percMaxEstagioAC",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "percMaxAtividadeDistancia",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "Curso",
+  "relationships": [
+    {
+      "otherEntityName": "escola",
+      "relationshipName": "escola",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "tipoDeCurso",
+      "relationshipName": "tipo",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

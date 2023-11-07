@@ -1,0 +1,24 @@
+{
+  "matrixApp": {
+    "modalidade": {
+      "home": {
+        "title": "Modalidades",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Modalidade",
+        "createOrEditLabel": "Create or edit a Modalidade",
+        "notFound": "No Modalidades found"
+      },
+      "created": "A new Modalidade is created with identifier {{ param }}",
+      "updated": "A Modalidade is updated with identifier {{ param }}",
+      "deleted": "A Modalidade is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Modalidade {{ id }}?"
+      },
+      "detail": {
+        "title": "Modalidade"
+      },
+      "id": "Id",
+      "nome": "Nome"
+    }
+  }
+}

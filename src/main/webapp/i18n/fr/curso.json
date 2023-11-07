@@ -1,0 +1,30 @@
+{
+  "matrixApp": {
+    "curso": {
+      "home": {
+        "title": "Cursos",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Curso",
+        "createOrEditLabel": "Créer ou éditer un Curso",
+        "notFound": "Aucun Curso trouvé"
+      },
+      "created": "Un nouveau Curso a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Curso avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Curso avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Curso {{ id }} ?"
+      },
+      "detail": {
+        "title": "Curso"
+      },
+      "id": "Id",
+      "nome": "Nome",
+      "cargaHorasMinCurso": "Carga Horas Min Curso",
+      "cargaHorasMinEstagio": "Carga Horas Min Estagio",
+      "percMaxEstagioAC": "Perc Max Estagio AC",
+      "percMaxAtividadeDistancia": "Perc Max Atividade Distancia",
+      "escola": "Escola",
+      "tipo": "Tipo"
+    }
+  }
+}
